@@ -12,7 +12,7 @@ const KEYBOARDS = {
       [
         { 
           text: "> Updates Channel <", 
-          url: "https://t.me/Private_Bots" 
+          url: "https://t.me/Free_Earning_official_x" 
         }
       ],
       [{ 
@@ -54,7 +54,7 @@ const KEYBOARDS = {
       [
         { 
           text: "Join Channel", 
-          url: "https://t.me/Private_Bots" 
+          url: "https://t.me/Free_Earning_official_x" 
         }
       ],
       [{ 
