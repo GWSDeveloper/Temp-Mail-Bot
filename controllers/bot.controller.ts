@@ -11,8 +11,8 @@ const KEYBOARDS = {
     inline_keyboard: [
       [
         { 
-          text: "> Updates Channel <", 
-          url: "https://t.me/Free_Earning_official_x" 
+          text: "Updates Channel", 
+          url: "https://t.me/FAST_Developers_Official" 
         }
       ]
     ]
