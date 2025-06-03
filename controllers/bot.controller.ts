@@ -14,11 +14,7 @@ const KEYBOARDS = {
           text: "> Updates Channel <", 
           url: "https://t.me/Free_Earning_official_x" 
         }
-      ],
-      [{ 
-        text: "Source Code ↗️", 
-        url: `https://github.com/Private-Bots-Official/Temp-Mail-Bot`
-      }],
+      ]
     ]
   } satisfies InlineKeyboardMarkup,
   
@@ -28,11 +24,7 @@ const KEYBOARDS = {
         { text: "Generate", callback_data: "generate" },
         { text: "Refresh", callback_data: "refresh" },
         { text: "Close", callback_data: "close" }
-      ],
-      [{ 
-        text: "Source Code ↗️", 
-        url: `https://github.com/Private-Bots-Official/Temp-Mail-Bot`
-      }],
+      ]
     ]
   } satisfies InlineKeyboardMarkup,
   
@@ -41,11 +33,7 @@ const KEYBOARDS = {
       [
         { text: "Refresh", callback_data: "refresh" },
         { text: "Close", callback_data: "close" }
-      ],
-      [{ 
-        text: "Source Code ↗️", 
-        url: `https://github.com/Private-Bots-Official/Temp-Mail-Bot`
-      }],
+      ]
     ]
   } satisfies InlineKeyboardMarkup,
   
@@ -56,11 +44,7 @@ const KEYBOARDS = {
           text: "Join Channel", 
           url: "https://t.me/Free_Earning_official_x" 
         }
-      ],
-      [{ 
-        text: "Source Code ↗️", 
-        url: `https://github.com/Private-Bots-Official/Temp-Mail-Bot`
-      }],
+      ]
     ]
   } satisfies InlineKeyboardMarkup
 };
