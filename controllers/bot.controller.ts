@@ -12,7 +12,7 @@ const KEYBOARDS = {
       [
         { 
           text: "Updates Channel", 
-          url: "https://t.me/FAST_Developers_Official" 
+          url: "https://t.me/FAST_DevelopersOfficial" 
         }
       ]
     ]
@@ -42,7 +42,7 @@ const KEYBOARDS = {
       [
         { 
           text: "Join Channel", 
-          url: "https://t.me/Free_Earning_official_x" 
+          url: "https://t.me/FAST_DevelopersOfficial" 
         }
       ]
     ]
@@ -74,17 +74,6 @@ export const BotController = {
     try {
       const isSubscribed = await SubscriptionService.checkSubscription(userId);
       
-      if (!isSubscribed) {
-        return TelegramService.sendMessage(
-          chatId,
-          "❌ *Please join our channel to use this bot:* [@Private_Bots](https://t.me/Private_Bots)",
-          {
-            parse_mode: "Markdown",
-            reply_markup: KEYBOARDS.joinChannel,
-            disable_web_page_preview: true
-          }
-        );
-      }
 
       await TelegramService.sendMessage(
         chatId,
@@ -239,3 +228,4 @@ export const BotController = {
     }
   }
 };
+
